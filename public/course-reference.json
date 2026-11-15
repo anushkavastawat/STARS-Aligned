@@ -1,0 +1,111 @@
+{
+  "unitSources": {
+    "eeFall": {
+      "url": "https://classes.usc.edu/term/20263/catalogue/program/EE/school/ENGV",
+      "label": "USC Schedule of Classes · Fall 2026"
+    },
+    "eeSpring": {
+      "url": "https://classes.usc.edu/term/20261/catalogue/school/ENGV/program/EE",
+      "label": "USC Schedule of Classes · Spring 2026"
+    },
+    "csFall": {
+      "url": "https://classes.usc.edu/term/20263/catalogue/program/CSCI/school/ENGV",
+      "label": "USC Schedule of Classes · Fall 2026"
+    },
+    "engrFall": {
+      "url": "https://classes.usc.edu/term/20263/catalogue/school/ENGV/program/ENGR",
+      "label": "USC Schedule of Classes · Fall 2026"
+    },
+    "legacy": {
+      "url": "https://minghsiehece.usc.edu/academics/bs/computer-engineering-and-computer-science/",
+      "label": "USC CECS department page · updated February 2020"
+    }
+  },
+  "courseCatalogue": {
+    "EE 451": {
+      "units": 4,
+      "title": "Parallel and Distributed Computation",
+      "source": "eeFall"
+    },
+    "EE 454": {
+      "units": 4,
+      "title": "System-on-Chip",
+      "source": "eeFall"
+    },
+    "EE 477": {
+      "units": 4,
+      "title": "MOS VLSI Circuit Design",
+      "source": "eeFall"
+    },
+    "CSCI 401": {
+      "units": 4,
+      "title": "Capstone: Design and Construction of Large Software Systems",
+      "source": "csFall"
+    },
+    "CSCI 404": {
+      "units": 4,
+      "title": "Capstone: Creating Your High-Tech Startup",
+      "source": "legacy",
+      "note": "4 units on an older USC listing. Confirm the current course status and units before relying on this option."
+    },
+    "EE 459": {
+      "units": 4,
+      "title": "Embedded Systems Design Laboratory",
+      "source": "eeSpring",
+      "note": "Spring 2026 lists 4 units; an older department page lists 3. The newer Schedule of Classes value is used here."
+    },
+    "EE 202": {
+      "units": 4,
+      "title": "Linear Circuits",
+      "source": "eeFall"
+    },
+    "EE 301": {
+      "units": 4,
+      "title": "Linear Systems",
+      "source": "eeFall"
+    },
+    "EE 460": {
+      "units": 4,
+      "title": "Machine Learning for Engineers",
+      "source": "eeFall"
+    },
+    "ENGR 102": {
+      "units": 2,
+      "title": "Viterbi First-Year Academy",
+      "source": "engrFall"
+    }
+  },
+  "prereqSource": {
+    "url": "https://viterbiundergrad.usc.edu/wp-content/uploads/2025/08/USC-Viterbi-Student-Undergraduate-Handbook.pdf",
+    "label": "2025–26 USC Viterbi handbook · CECS course charts"
+  },
+  "prerequisites": {
+    "EE 451": [
+      "CSCI 201"
+    ],
+    "EE 454": [
+      "EE 354"
+    ],
+    "EE 477": [
+      "EE 354"
+    ],
+    "CSCI 401": [
+      "CSCI 270",
+      "CSCI 310"
+    ],
+    "CSCI 404": [
+      "CSCI 201",
+      "CSCI 270"
+    ],
+    "EE 459": [
+      "EE 354"
+    ],
+    "EE 202": [
+      "MATH 245"
+    ],
+    "EE 301": [
+      "EE 141",
+      "EE 202"
+    ]
+  }
+}
